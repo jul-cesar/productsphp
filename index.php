@@ -1,12 +1,5 @@
 <?php
 
-/* 
-Realizado por: 
-Alex Betin
-Jose Hernandez
-Julio Martinez
-Eduardo de Avila
-*/
 header( 'Access-Control-Allow-Origin: *' );
 header( 'Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS' );
 header( 'Access-Control-Allow-Headers: Content-Type' );
@@ -26,7 +19,7 @@ if ( !$conn ) {
 }
 
 
-/*  profe este es el codigo encargado de hacer el loop para iterar por cada fila del csv y tomar
+/* l codigo encargado de hacer el loop para iterar por cada fila del csv y tomar
  los datos para la query, lo tengo comentado porque no es necesario usarlo siempre, si lo dejo sin comentar impidira renderizar los productos en la pagina
 
 
